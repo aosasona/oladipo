@@ -16,7 +16,7 @@ const NavMenu: FC<Props> = ({ isVisible, toggleVisibility }) => {
     open: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.4,
+        staggerChildren: 0.25,
       },
     },
   };
@@ -73,9 +73,9 @@ const NavMenu: FC<Props> = ({ isVisible, toggleVisibility }) => {
             <NavLink url="/#skills" variants={itemVariant}>
               Skills
             </NavLink>
-            <NavLink url="/portfolio" variants={itemVariant}>
+            {/* <NavLink url="/portfolio" variants={itemVariant}>
               Portfolio
-            </NavLink>
+            </NavLink> */}
             <NavLink url="/#projects" variants={itemVariant}>
               Projects
             </NavLink>
@@ -113,7 +113,7 @@ const NavMenu: FC<Props> = ({ isVisible, toggleVisibility }) => {
                 rel="noreferrer noopener"
                 className="text-white hover:text-neutral-400 hover:underline hover:underline-offset-2 transition-all"
               >
-                Ayodeji
+                Oladipo
               </a>
             </p>
           </motion.footer>

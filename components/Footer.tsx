@@ -20,7 +20,7 @@ const Footer = () => {
         />
       </div>
       <p className="text-center text-[11px] opacity-60">
-        Built by{" "}
+        Template by{" "}
         <a
           href="https://twitter.com/trulyao"
           target="_blank"

@@ -16,45 +16,34 @@ const OtherStuff = () => {
 
         <section className="grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-5 mt-6">
           <ProjectCard
-            name="Frikax"
-            description="The all-in-one social media for Techies - coming soon"
-            github="https://www.frikax.net"
-            website="https://www.frikax.net"
+            name="vetaCloud"
+            description="A cloud infrastructure that simplifies file uploads - coming soon"
+            github="https://www.vetaCloud.com"
+            website="https://www.vetaCloud.com"
           />
-
           <ProjectCard
-            name="AerDeets"
-            description="All things tech - news, reviews, coding tutorials, and more"
-            github="https://github.com/aosasona/aerdeets"
-            website="https://www.aerdeets.com"
+            name="Frinna"
+            description="Send messages and reply anonymously without an account"
+            github="https://frinna.herokuapp.com"
+            website="https://frinna.herokuapp.com"
           />
-
           <ProjectCard
-            name="PHPRouter"
-            description="A PHP composer package that brings Express-like routing to 'vanilla' PHP (No frameworks)"
-            github="https://github.com/aosasona/php-router"
-            website="https://phprouter.herokuapp.com/"
+            name="Thrift-contribution"
+            description="Monthly thrift contribution API I built within 24 hours"
+            github="https://github.com/adesiyanoladipo/Thrift-contribution"
+            website="https://github.com/adesiyanoladipo/Thrift-contribution"
           />
-
           <ProjectCard
-            name="Noxis"
-            description="Quick, easy and anonymous conversations - POC (early version)"
-            github="https://noxis.chat/"
-            website="https://noxis.chat/"
+            name="Online Store"
+            description="An online store"
+            github="https://github.com/adesiyanoladipo/Ecommerce-website"
+            website="https://github.com/adesiyanoladipo/Ecommerce-website"
           />
-
           <ProjectCard
-            name="HitList CLI"
-            description="Run multiple terminal commands with one hit; anytime, anywhere!"
-            github="https://github.com/hitlist-cli/cli"
-            website="https://www.hitlist.dev"
-          />
-
-          <ProjectCard
-            name="Scrawny"
-            description="Lightweight request logger for Node.js - WIP"
-            github="https://github.com/aosasona/Scrawny"
-            website="https://github.com/aosasona/Scrawny"
+            name="Ranode"
+            description="Transfer money"
+            github="https://github.com/adesiyanoladipo/Ranode"
+            website="https://github.com/adesiyanoladipo/Ranode"
           />
         </section>
       </div>

@@ -73,7 +73,7 @@ const Hero = () => {
             className="w-full h-max px-1 max-w-full flex flex-col space-y-[-1.75rem]"
             ref={heroText}
           >
-            <HeroHeader>Backend</HeroHeader>
+            <HeroHeader>Software</HeroHeader>
             <HeroHeader>Engineer</HeroHeader>
           </div>
           <div className="w-full hero-quote px-1">
@@ -100,7 +100,7 @@ const Hero = () => {
           </a>
         </div>
         <div className="relative hero-image mx-auto" ref={heroImage}>
-          <img src="/images/preview.jpg" alt="Ayodeji Osasona" className="" />
+          <img src="/images/preview.jpg" alt="Oladipo Osasona" className="" />
         </div>
       </div>
     </section>

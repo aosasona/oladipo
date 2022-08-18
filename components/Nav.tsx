@@ -44,11 +44,11 @@ const Nav: FC<Props> = ({ title = "Home" }) => {
               Skills
             </div>
           </Link>
-          <Link href="/portfolio">
+          {/* <Link href="/portfolio">
             <div className="header-link" data-description="Oops, not yet 🥲">
               Portfolio
             </div>
-          </Link>
+          </Link> */}
           <Link href="/#projects">
             <div
               className="header-link"
@@ -70,7 +70,7 @@ const Nav: FC<Props> = ({ title = "Home" }) => {
         <div className="lg:hidden">
           <button
             onClick={handleMenuClick}
-            className={`${isMenuOpen ? "rotate-[90deg]" : ""}`}
+            className={`${isMenuOpen ? "rotate-[15deg]" : ""}`}
           >
             <BiMenuAltRight size={24} />
           </button>

@@ -19,23 +19,16 @@ const Skills = () => {
           I am currently working with.
         </p>
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-4 lg:gap-5 my-5">
-          <SkillsRating name="PHP" level={8} />
-          <SkillsRating name="JavaScript + Typescript (Node.js)" level={8} />
-          <SkillsRating name="Python + Flask" level={5} />
-          <SkillsRating name="Golang" level={3} learning={true} />
-          <SkillsRating name="Express.js, Fastify & Nest.js" level={8} />
-          <SkillsRating name="React.js & Next.js + Tailwind CSS" level={8} />
-          <SkillsRating name="MySQL + PostgreSQL" level={8} />
+          <SkillsRating name="Python" level={6} />
+          <SkillsRating name="JavaScript" level={6} />
+          <SkillsRating name="Node.js & Express.js" level={6} />
+          <SkillsRating name="Flask & FastAPI" level={6} />
+          <SkillsRating name="GraphQL" level={6} />
+          <SkillsRating name="AWS" level={6} />
+          <SkillsRating name="CircleCI" level={6} />
           <SkillsRating name="Git & Github" level={6} />
+          <SkillsRating name="Django and DRF" level={6} />
         </div>
-
-        <p className="text-faded leading-relaxed text-sm">
-          I am not very good at assigning ratings, but this is the best I can do
-          to give you a sense of what anything is like. This list might go on
-          and on since I have dabbled into quite a bit of other stuff -
-          including Graphic design, so I have only listed the most{" "}
-          <TextHighlight>significant</TextHighlight> ones.
-        </p>
       </div>
     </section>
   );
