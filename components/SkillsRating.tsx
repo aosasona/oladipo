@@ -25,7 +25,7 @@ const SkillsRating: FC<Props> = ({ name, level, learning = false }) => {
           </p>
         )}
       </div>
-      <AnimatePresence>
+      {/* <AnimatePresence>
         {showSkills && (
           <motion.div
             initial={{ opacity: 0 }}
@@ -44,7 +44,7 @@ const SkillsRating: FC<Props> = ({ name, level, learning = false }) => {
             />
           </motion.div>
         )}
-      </AnimatePresence>
+      </AnimatePresence> */}
     </div>
   );
 };

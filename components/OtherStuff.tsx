@@ -7,7 +7,7 @@ const OtherStuff = () => {
   return (
     <section className="mt-12" id="other-stuff">
       <div>
-        <SectionHeader title="Other Stuff" />
+        <SectionHeader title="Projects" />
         <p className="text-faded leading-relaxed text-sm">
           The following is a list of the <TextHighlight>personal</TextHighlight>{" "}
           projects and products that I have worked on or to which I have{" "}

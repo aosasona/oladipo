@@ -73,26 +73,25 @@ const Hero = () => {
             className="w-full h-max px-1 max-w-full flex flex-col space-y-[-1.75rem]"
             ref={heroText}
           >
-            <HeroHeader>Software</HeroHeader>
-            <HeroHeader>Developer</HeroHeader>
+            <HeroHeader>Backend</HeroHeader>
+            <HeroHeader>Engineer</HeroHeader>
           </div>
           <div className="w-full hero-quote px-1">
             <p className="text-faded my-6 lg:my-8" ref={heroQuote}>
-              In a very real sense, we are all aliens on a strange planet. We
-              spend most of our lives reaching out and trying to communicate. If
-              during our whole lifetime, we could reach out and really
-              communicate with just two people, we are indeed very fortunate.
+              “The test of a first-rate intelligence is the ability to hold two
+              opposed ideas in mind at the same time and still retain the
+              ability to function.”
             </p>
             <div
               className="flex items-center text-primary gap-3 mb-3 lg:mb-0"
               ref={heroAuthor}
             >
               <div className="w-16 bg-primary h-[2px]" />
-              Gene Roddenberry
+              F. Scott Fitzgerald
             </div>
           </div>
           <a
-            href="mailto:ayodejiosasona@icloud.com"
+            href="mailto:"
             className="hero-cta flex items-center justify-center lg:justify-start text-center text-sm lg:mb-0"
           >
             <span>Say Hi</span>

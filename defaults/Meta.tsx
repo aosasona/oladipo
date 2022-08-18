@@ -17,13 +17,13 @@ const Meta: FunctionComponent<Props> = ({ title, desc, keywords }) => {
       <link rel="icon" type="image/x-icon" href="/images/preview.jpg" />
 
       <meta property="og:type" content="website" />
-      <meta property="og:url" content="http://www.trulyao.dev" />
+      <meta property="og:url" content="http://www.dipo.tech" />
       <meta property="og:title" content={title} />
       <meta property="og:description" content={desc} />
       <meta property="og:image" content="/images/preview.jpg" />
 
       <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="http://www.trulyao.dev" />
+      <meta property="twitter:url" content="http://www.dipo.tech" />
       <meta property="twitter:title" content={title} />
       <meta property="twitter:description" content={desc} />
       <meta property="twitter:image" content="/images/preview.jpg" />
@@ -33,16 +33,17 @@ const Meta: FunctionComponent<Props> = ({ title, desc, keywords }) => {
       <meta property="og:title" content={title} />
       <meta property="og:description" content={desc} />
       <meta property="og:image" content="/images/preview.jpg" />
-      <meta property="og:url" content="http://www.trulyao.dev" />
+      <meta property="og:url" content="http://www.dipo.tech" />
       <title>{title}</title>
     </Head>
   );
 };
 
 Meta.defaultProps = {
-  title: "Ayodeji",
-  keywords: "ayodeji, osasona, software, developer, typescript, engineer, blog, php, mysql, python",
-  desc: "Ayodeji - Software Developer",
+  title: "Oladipo",
+  keywords:
+    "dipo, oladipo, mongodb, nodejs, python, django, backend, developer, devops",
+  desc: "Oladipo - Backend Engineer",
 };
 
 export default Meta;

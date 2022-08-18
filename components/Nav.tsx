@@ -19,7 +19,7 @@ const Nav: FC<Props> = ({ title = "Home" }) => {
       <nav className="flex fixed top-5 right-0 left-0 w-[93vw] lg:w-5/6 justify-between items-center mx-auto bg-[#222222] bg-opacity-80 backdrop-blur-md drop-shadow-md-lg rounded-sm py-5 lg:py-6 px-8 lg:px-10 z-[9999]">
         <div>
           <Link href="/">
-            <h1 className="font-extrabold text-md lg:text-2xl">Ayodeji</h1>
+            <h1 className="font-extrabold text-md lg:text-2xl">Oladipo</h1>
           </Link>
         </div>
         <div className="lg:flex lg:items-center lg:gap-x-4 2xl:gap-x-8 hidden">
@@ -49,12 +49,12 @@ const Nav: FC<Props> = ({ title = "Home" }) => {
               Portfolio
             </div>
           </Link>
-          <Link href="/#other-stuff">
+          <Link href="/#projects">
             <div
               className="header-link"
               data-description="Personal stuff I worked on or contributed to - not commercial projects"
             >
-              Other Stuff
+              Projects
             </div>
           </Link>
           <Link href="/blog">
